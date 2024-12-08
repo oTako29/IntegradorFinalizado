@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalis Care</title>
+    <link rel="stylesheet" href="mensagens.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="logovc.png">
+</head>
+<body><div class="container">
+    <aside>
+        <div class="toggle">
+            <div class="logo">
+                <img src="WhatsApp_Image_2024-09-25_at_23.07.39-removebg-preview (1).png">
+                <h2>Vitalis <span class="danger">Care</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">
+                    close
+                </span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">
+                    dashboard
+                </span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    person_outline
+                </span>
+                <h3>Usúarios</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    receipt_long
+                </span>
+                <h3>Historico</h3>
+            </a>
+            <a href="cliente.html" >
+                <span class="material-icons-sharp">
+                    search
+                </span>
+                <h3>Busca</h3>
+            </a>
+            <a href="email.html">
+                <span class="material-icons-sharp">
+                    mail_outline
+                </span>
+                <h3>Mensagens</h3>
+                <span class="message-count">27</span>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    inventory
+                </span>
+                <h3>Lista de comissões</h3>
+            </a>
+            <a href="#"class="active">
+                <span class="material-icons-sharp">
+                    report_gmailerrorred
+                </span>
+                <h3>Reportar</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    settings
+                </span>
+                <h3>Configurações</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    add
+                </span>
+                <h3>Novo Login</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    logout
+                </span>
+                <h3>Sair</h3>
+            </a>
+        </div>
+    </aside>
+    <main>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Reportar</h2>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Mensagens serão adicionadas aqui -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</main>
+    <script src="mensagens.js"></script>
+</body>
+</html>
